@@ -3,10 +3,17 @@ def speak_to_grandma(phrase)
 if phrase  == "I LOVE YOU GRANDMA!"
    return "I LOVE YOU TOO PUMPKIN!"
 
+<<<<<<< HEAD
 elsif   phrase == "Hi Nana, how are you?"
   return"HUH?! SPEAK UP, SONNY!"
 
 elsif  phrase == phrase.capitalize
+=======
+elsif   phrase == phrase.capitalize
+  return"HUH?! SPEAK UP, SONNY!"
+
+elsif  phrase == phrase.downcase
+>>>>>>> ff9310fef53651c6958e30caefb3ab54f8690938
   return"HUH?! SPEAK UP, SONNY!"
 
 
